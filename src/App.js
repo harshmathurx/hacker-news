@@ -49,7 +49,7 @@ const App = () => {
 
       {news.map((article,id) => {
         return <div>
-          <a href={article.url} target="_blank"><h3 key={id}>{article.title}</h3></a>
+          <a href={article.url} rel="noreferrer" target="_blank"><h3 key={id}>{article.title}</h3></a>
         </div>
       })}
     </div>
